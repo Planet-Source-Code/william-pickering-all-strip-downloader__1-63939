@@ -1,0 +1,105 @@
+[Root]
+Most Recent Package=All Strip Downloader Packaging Script
+
+
+[Package|All Strip Downloader Packaging Script|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=B:\Visual Basic\000.000\Comic Downloaders\ASD\Package
+
+[Package|All Strip Downloader Packaging Script|Configure DAO ISAMs]
+Applicable=No
+
+[Package|All Strip Downloader Packaging Script|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|All Strip Downloader Packaging Script|Files Found]
+
+[Package|All Strip Downloader Packaging Script|Files Released]
+
+[Package|All Strip Downloader Packaging Script|Missing Dependency Information]
+B:\Visual Basic\000.000\Comic Downloaders\TreeFolder.ocx=
+
+[Package|All Strip Downloader Packaging Script|Out-of-Date Dependency Information]
+
+[Package|All Strip Downloader Packaging Script|Files Added]
+B:\Visual Basic\000.000\Comic Downloaders\ReadMe First!.txt=
+
+[Package|All Strip Downloader Packaging Script|Files Removed]
+
+[Package|All Strip Downloader Packaging Script|Files In Project]
+B:\Visual Basic\000.000\Comic Downloaders\ASD.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+D:\WINDOWS\system32\msstdfmt.dll=Yes
+D:\WINDOWS\system32\MSINET.OCX=Yes
+D:\WINDOWS\system32\COMDLG32.ocx=Yes
+D:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+B:\Visual Basic\000.000\Comic Downloaders\TreeFolder.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+B:\Visual Basic\000.000\Comic Downloaders\ReadMe First!.txt=Yes
+
+[Package|All Strip Downloader Packaging Script|Configure Registry Files]
+Applicable=No
+
+[Package|All Strip Downloader Packaging Script|Configure Remote Servers]
+Applicable=No
+
+[Package|All Strip Downloader Packaging Script|Install Locations]
+B:\Visual Basic\000.000\Comic Downloaders\ASD.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+D:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+D:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+D:\WINDOWS\system32\COMDLG32.ocx=$(WinSysPath)
+D:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+B:\Visual Basic\000.000\Comic Downloaders\TreeFolder.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+B:\Visual Basic\000.000\Comic Downloaders\ReadMe First!.txt=$(AppPath)
+
+[Package|All Strip Downloader Packaging Script|Configure Shared Files]
+Applicable=Yes
+B:\Visual Basic\000.000\Comic Downloaders\ASD.exe=No
+B:\Visual Basic\000.000\Comic Downloaders\ReadMe First!.txt=No
+
+[Package|All Strip Downloader Packaging Script|Distribution]
+Type=single
+Size=
+Title=All Strip Downloader
+
+[Package|All Strip Downloader Packaging Script|IconGroups]
+Group0=All Strip Downloader
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|All Strip Downloader Packaging Script|All Strip Downloader]
+Icon1=ASD.exe
+Title1=All Strip Downloader
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|All Strip Downloader Packaging Script|Package]
+PackageFolder=B:\Visual Basic\000.000\Comic Downloaders\ASD\Package
+ProjectFolder=B:\Visual Basic\000.000\Comic Downloaders\ASD
+ServerSideCab=
+File1=B:\Visual Basic\000.000\Comic Downloaders\ASD\Package\setup.exe
+File2=B:\Visual Basic\000.000\Comic Downloaders\ASD\Package\Setup.Lst
+File3=B:\Visual Basic\000.000\Comic Downloaders\ASD\Package\ASD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
